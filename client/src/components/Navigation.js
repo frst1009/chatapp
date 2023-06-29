@@ -16,7 +16,7 @@ export default function Navigation() {
         <Toolbar>
           <Button color="inherit" onClick={()=>change('/login')}>Login</Button>
           <Button color="inherit" onClick={()=>change('/signup')}>Sign in</Button>
-          <Button color="inherit" onClick={()=>change('/main')}>Main Page</Button>
+          <Button color="inherit" onClick={()=>change('/')}>Main Page</Button>
         </Toolbar>
       </AppBar>
     </Box>
